@@ -1,0 +1,56 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #9013ef;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    background: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 20px;
+    align-self: center;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.row {
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.profile-icon {
+    border-radius: 50%;
+    border: 2px solid bisque;
+}
+
+.name {
+    margin: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.round-runs {
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
